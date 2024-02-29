@@ -47,9 +47,9 @@ function App() {
       <img className="mt-[100px] max-sm:mt-[60px] h-full rounded-full m-auto max-sm:h-[60px]" src="logo.png" alt="tribe" />
 
       <div className="w-full text-center px-5 text-[40px] max-sm:text-[20px] flex items-center justify-center gap-5 mt-8">
-        <img src="assets/images/instagram.svg" alt="instagram" />
-        <img src="assets/images/twitter.svg" alt="twitter" />
-        <img src="assets/images/telegram.svg" alt="telegram" />
+        <a href="/" target="_blank"><img src="assets/images/instagram.svg" alt="instagram" /></a>
+        <a href="/" target="_blank"><img src="assets/images/twitter.svg" alt="twitter" /></a>
+        <a href="/" target="_blank"><img src="assets/images/telegram.svg" alt="telegram" /></a>
       </div>
 
       <div className="w-full text-center px-5 text-[16px] max-sm:text-[12px] text-white my-[30px]">
