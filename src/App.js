@@ -44,7 +44,7 @@ function App() {
         </div>
       </div>
 
-      <img className="mt-[100px] max-sm:mt-[60px] h-full rounded-full m-auto max-sm:h-[60px]" src="logo.png" alt="tribe" />
+      <img className="mt-[100px] max-sm:mt-[60px] h-24 max-sm:h-10 rounded-full m-auto max-sm:h-[60px]" src="logo.png" alt="tribe" />
 
       <div className="w-full text-center px-5 text-[40px] max-sm:text-[20px] flex items-center justify-center gap-5 mt-8">
         <a href="/" target="_blank"><img src="assets/images/instagram.svg" alt="instagram" /></a>
