@@ -18,7 +18,7 @@ function App() {
         <div className="flex flex-col items-center justify-center text-center">
             <img className="w-[500px] max-sm:w-[75%] -ml-[30px] max-sm:m-auto" src="assets/images/title.gif" alt="title" />
             <p className="font-digit text-[40px] max-sm:text-[20px] leading-tight text-stroke text-[#FFC700]">
-              Join the Tribe on it's Mission to 1 Billion Market Cap
+              Join the Tribe on it's Mission to<br/>1 Billion Market Cap
             </p>
             <a className="mt-[100px] max-sm:mt-[40px]" href={`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${tokenAddress}&fixed=in`} target="_blank">
               <img className="w-[350px] -ml-[20px] max-sm:m-auto max-sm:w-[70%]" src="assets/images/btnBuy.gif" alt="title" />
@@ -29,7 +29,7 @@ function App() {
         </div>
       </div>
 
-      <div className="py-10 bg-[#00000080] flex-col items-center justify-center mt-[120px] max-sm:mt-[20px] max-sm:py-8">
+      <div className="py-10 sm:bg-[#00000080] flex-col items-center justify-center mt-[120px] max-sm:mt-[20px] max-sm:py-8">
         <div className="flex items-center justify-center max-sm:flex-col max-sm:gap-2">
           <div className="text-[40px] text-[#FFC700] text-stroke mr-20 max-sm:text-[16px] max-sm:m-auto">
             Join The Tribe
