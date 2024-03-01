@@ -16,20 +16,17 @@ function App() {
           </a>
         </header>
 
-        <div className="flex items-center justify-between max-sm:flex-col-reverse max-sm:text-center">
-          <div>
+        <div className="flex flex-col items-center justify-center text-center">
             <img className="w-[500px] max-sm:w-[75%] -ml-[30px] max-sm:m-auto" src="assets/images/title.gif" alt="title" />
             <p className="font-digit text-[40px] max-sm:text-[25px] leading-tight text-stroke text-[#FFC700]">
               Join the Tribe on it's Mission to 1 Billion Market Cap
             </p>
-            <a className="w-fit" href={`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${tokenAddress}&fixed=in`} target="_blank">
+            <a className="mt-[100px] max-sm:mt-[40px]" href={`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${tokenAddress}&fixed=in`} target="_blank">
               <img className="w-[350px] -ml-[20px] max-sm:m-auto max-sm:w-[70%]" src="assets/images/btnBuy.gif" alt="title" />
             </a>
-            <div className="text-[20px] text-stroke text-white max-sm:w-[320px] max-sm:m-auto max-w-[500px] break-words max-sm:text-[14px] max-sm:mb-[40px]">
+            <div className="text-[20px] text-stroke text-white max-w-[85vw] max-sm:m-auto break-words max-sm:text-[14px] max-sm:mb-[40px]">
               Contract : {tokenAddress}
             </div>
-          </div>
-          <img className="max-sm:hidden w-[55%] -mr-[100px] max-sm:m-auto max-sm:w-[90%] cursor-pointer" src="assets/images/banner.png" alt="banner" />
         </div>
       </div>
 
@@ -48,7 +45,7 @@ function App() {
 
       <div className="w-full text-center px-5 text-[40px] max-sm:text-[20px] flex items-center justify-center gap-5 mt-8">
         <a href="https://instagram.com/thetribetoken" target="_blank"><img src="assets/images/instagram.svg" alt="instagram" /></a>
-        <a href="/" target="_blank"><img src="assets/images/twitter.svg" alt="twitter" /></a>
+        <a href="https://twitter.com/thetribetoken" target="_blank"><img src="assets/images/twitter.svg" alt="twitter" /></a>
         <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank"><img src="assets/images/telegram.svg" alt="telegram" /></a>
       </div>
 
