@@ -8,8 +8,8 @@ function App() {
         <header className="flex items-center justify-between">
           <div className="flex items-center gap-8 max-sm:gap-4 h-24 max-sm:h-10 my-5 text-[#531D01]">
             <img className="h-full rounded-full" src="logo.png" alt="tribe" />
-            <a href={`https://www.dextools.io/app/en/solana/pair-explorer/2kHJ7LrxvhyogvP6pr1LdPed2NVkgbMUP2bpdnGT9uLQ?t=1709309650707`} target="_blank" className="font-digit text-[40px] max-sm:text-[20px] max-sm:text-lg cursor-pointer animation hover:text-hover">Dextool</a>
-            <a href={`https://dexscreener.com/solana/8iPC9NUaxNwFMoiAPneQtUfprgKEiS47s5XjYFXT5A9M`} target="_blank" className="font-digit text-[40px] max-sm:text-[20px] max-sm:text-lg cursor-pointer animation hover:text-hover">DexScreener</a>
+            <a href={`https://www.dextools.io/app/en/solana/pair-explorer/2kHJ7LrxvhyogvP6pr1LdPed2NVkgbMUP2bpdnGT9uLQ?t=1709309650707`} target="_blank" className="font-digit text-[40px] max-sm:text-[20px] cursor-pointer animation hover:text-hover">Dextool</a>
+            <a href={`https://dexscreener.com/solana/8iPC9NUaxNwFMoiAPneQtUfprgKEiS47s5XjYFXT5A9M`} target="_blank" className="font-digit text-[40px] max-sm:text-[20px] cursor-pointer animation hover:text-hover">DexScreener</a>
           </div>
           <a href="https://t.me/+aeG10s0K63MxODcy" target="_blank">
             <img className="h-[70px] max-sm:h-[40px] object-contain cursor-pointer hover:scale-95 transition-all" src="assets/images/btnTelegram.png" alt="button" />
