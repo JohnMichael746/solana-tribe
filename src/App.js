@@ -11,7 +11,7 @@ function App() {
             <a target="_blank" className="font-digit text-[40px] max-sm:text-lg cursor-pointer animation hover:text-hover">Home</a>
             <a href={`https://dexscreener.com/solana/${tokenAddress}`} target="_blank" className="font-digit text-[40px] max-sm:text-lg cursor-pointer animation hover:text-hover">Chart</a>
           </div>
-          <a href="/" target="_blank">
+          <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank">
             <img className="h-[70px] max-sm:h-[40px] object-contain cursor-pointer hover:scale-95 transition-all" src="assets/images/btnTelegram.png" alt="button" />
           </a>
         </header>
@@ -38,7 +38,7 @@ function App() {
           <div className="text-[40px] text-[#FFC700] text-stroke mr-20 max-sm:text-[16px] max-sm:m-auto">
             Join The Tribe
           </div>
-          <a href="/" target="_blank">
+          <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank">
             <img className="w-[250px] max-sm:w-[150px] cursor-pointer" src="assets/images/btnJoin.png" alt="join" />
           </a>
         </div>
@@ -47,9 +47,9 @@ function App() {
       <img className="mt-[100px] max-sm:mt-[60px] h-24 max-sm:h-10 rounded-full m-auto max-sm:h-[60px]" src="logo.png" alt="tribe" />
 
       <div className="w-full text-center px-5 text-[40px] max-sm:text-[20px] flex items-center justify-center gap-5 mt-8">
-        <a href="/" target="_blank"><img src="assets/images/instagram.svg" alt="instagram" /></a>
+        <a href="https://instagram.com/thetribetoken" target="_blank"><img src="assets/images/instagram.svg" alt="instagram" /></a>
         <a href="/" target="_blank"><img src="assets/images/twitter.svg" alt="twitter" /></a>
-        <a href="/" target="_blank"><img src="assets/images/telegram.svg" alt="telegram" /></a>
+        <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank"><img src="assets/images/telegram.svg" alt="telegram" /></a>
       </div>
 
       <div className="w-full text-center px-5 text-[16px] max-sm:text-[12px] text-white my-[30px]">
