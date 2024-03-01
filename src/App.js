@@ -8,7 +8,6 @@ function App() {
         <header className="flex items-center justify-between">
           <div className="flex items-center gap-8 max-sm:gap-4 h-24 max-sm:h-10 my-5 text-[#531D01]">
             <img className="h-full rounded-full" src="logo.png" alt="tribe" />
-            <a target="_blank" className="font-digit text-[40px] max-sm:text-lg cursor-pointer animation hover:text-hover">Home</a>
             <a href={`https://dexscreener.com/solana/${tokenAddress}`} target="_blank" className="font-digit text-[40px] max-sm:text-lg cursor-pointer animation hover:text-hover">Chart</a>
           </div>
           <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank">
