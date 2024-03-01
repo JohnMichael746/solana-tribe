@@ -1,5 +1,5 @@
 function App() {
-  const tokenAddress = "7njsg9BA1xvXX9DNpe5fERHK4zb7MbCHKZ6zsx5k3adr";
+  const tokenAddress = "8iPC9NUaxNwFMoiAPneQtUfprgKEiS47s5XjYFXT5A9M";
 
   return (
     <>
@@ -8,9 +8,9 @@ function App() {
         <header className="flex items-center justify-between">
           <div className="flex items-center gap-8 max-sm:gap-4 h-24 max-sm:h-10 my-5 text-[#531D01]">
             <img className="h-full rounded-full" src="logo.png" alt="tribe" />
-            <a href={`https://dexscreener.com/solana/${tokenAddress}`} target="_blank" className="font-digit text-[40px] max-sm:text-lg cursor-pointer animation hover:text-hover">Chart</a>
+            <a href={`https://www.dextools.io/app/en/solana/pair-explorer/2kHJ7LrxvhyogvP6pr1LdPed2NVkgbMUP2bpdnGT9uLQ?t=1709309650707`} target="_blank" className="font-digit text-[40px] max-sm:text-lg cursor-pointer animation hover:text-hover">Chart</a>
           </div>
-          <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank">
+          <a href="https://t.me/+aeG10s0K63MxODcy" target="_blank">
             <img className="h-[70px] max-sm:h-[40px] object-contain cursor-pointer hover:scale-95 transition-all" src="assets/images/btnTelegram.png" alt="button" />
           </a>
         </header>
@@ -20,7 +20,7 @@ function App() {
             <p className="font-digit text-[40px] max-sm:text-[20px] leading-tight text-stroke text-[#FFC700]">
               Join the Tribe on it's Mission to<br/>1 Billion Market Cap
             </p>
-            <a className="mt-[100px] max-sm:mt-[40px]" href={`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=${tokenAddress}&fixed=in`} target="_blank">
+            <a className="mt-[100px] max-sm:mt-[40px]" href={`https://raydium.io/swap/?inputCurrency=sol&outputCurrency=8iPC9NUaxNwFMoiAPneQtUfprgKEiS47s5XjYFXT5A9M&outputSymbol=8iPC9N&fixed=in`} target="_blank">
               <img className="w-[350px] -ml-[20px] max-sm:m-auto max-sm:w-[70%]" src="assets/images/btnBuy.gif" alt="title" />
             </a>
             <div className="text-[20px] text-stroke text-white max-w-[85vw] max-sm:m-auto break-words max-sm:text-[14px] max-sm:mb-[40px]">
@@ -34,7 +34,7 @@ function App() {
           <div className="text-[40px] text-[#FFC700] text-stroke mr-20 max-sm:text-[16px] max-sm:m-auto">
             Join The Tribe
           </div>
-          <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank">
+          <a href="https://t.me/+aeG10s0K63MxODcy" target="_blank">
             <img className="w-[250px] max-sm:w-[150px] cursor-pointer" src="assets/images/btnJoin.png" alt="join" />
           </a>
         </div>
@@ -45,7 +45,7 @@ function App() {
       <div className="w-full text-center px-5 text-[40px] max-sm:text-[20px] flex items-center justify-center gap-5 mt-8">
         <a href="https://instagram.com/thetribetoken" target="_blank"><img src="assets/images/instagram.svg" alt="instagram" /></a>
         <a href="https://twitter.com/thetribetoken" target="_blank"><img src="assets/images/twitter.svg" alt="twitter" /></a>
-        <a href="https://t.me/+6p0LLUz9AEplNjMy" target="_blank"><img src="assets/images/telegram.svg" alt="telegram" /></a>
+        <a href="https://t.me/+aeG10s0K63MxODcy" target="_blank"><img src="assets/images/telegram.svg" alt="telegram" /></a>
       </div>
 
       <div className="w-full text-center px-5 text-[16px] max-sm:text-[12px] text-white my-[30px]">
